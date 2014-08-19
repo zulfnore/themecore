@@ -37,7 +37,7 @@ function themeoptions_register_after_content_widget_areas() {
  *
  * Based on code from the Genesis Framework
  */
-add_action( genesis_after_entry_content, 'genesis_after_content_widget_areas' );
+add_action( 'genesis_after_entry_content', 'genesis_after_content_widget_areas' );
 function genesis_after_content_widget_areas() {
 
 	$after_content_widgets = get_theme_support( 'genesis-after-content-widgets' );
