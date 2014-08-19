@@ -37,7 +37,7 @@ function themecore_register_before_content_widget_areas() {
  *
  * Based on code from the Genesis Framework
  */
-add_action( genesis_before_entry_content, 'genesis_before_content_widget_areas' );
+add_action( 'genesis_before_entry_content', 'genesis_before_content_widget_areas' );
 function genesis_before_content_widget_areas() {
 
 	$before_content_widgets = get_theme_support( 'genesis-before-content-widgets' );
